@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.scene1.Sample1">
+   <children>
+      <ImageView fx:id="fb_l" fitHeight="79.0" fitWidth="172.0" layoutX="80.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@fb.jpeg" />
+
+              </image>
+              </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="237.0" layoutX="342.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@finally.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
