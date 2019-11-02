@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="1" prefHeight="400.0" prefWidth="600.0" styleClass="bodybg" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.scene1.Lawn">
+   <stylesheets>
+      <URL value="@law.css" />
+      <URL value="@law.css" />
+
+   </stylesheets>
+   <children>
+      <Button layoutY="1.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="57.0">
+       <graphic>
+                   <ImageView fitHeight="45.0" fitWidth="57.0">
+                       <image>
+                           <Image url="@sunflower.png" />
+                       </image>
+                   </ImageView>
+       </graphic>
+      </Button>
+      <Button layoutX="61.0" layoutY="1.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="57.0">
+       <graphic>
+           <ImageView fitHeight="45.0" fitWidth="57.0">
+               <image>
+                   <Image url="@snowpea.png" />
+               </image>
+           </ImageView>
+       </graphic>
+      </Button>
+      <Button layoutX="119.0" layoutY="1.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="57.0">
+       <graphic>
+           <ImageView fitHeight="45.0" fitWidth="57.0">
+               <image>
+                   <Image url="@cherry.png" />
+               </image>
+           </ImageView>
+       </graphic>
+      </Button>
+      <Button layoutX="179.0" layoutY="1.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="57.0">
+       <graphic>
+           <ImageView fitHeight="45.0" fitWidth="57.0">
+               <image>
+                   <Image url="@potato.png" />
+               </image>
+           </ImageView>
+       </graphic>
+      </Button>
+      <Button layoutX="236.0" layoutY="1.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="57.0">
+       <graphic>
+           <ImageView fitHeight="45.0" fitWidth="57.0">
+               <image>
+                   <Image url="@wallnut.png" />
+               </image>
+           </ImageView>
+       </graphic>
+      </Button>
+      <ImageView id="2" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@1.png" />
+              </image>
+
+      </ImageView>
+       <ImageView id="1" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+       <ImageView id="3" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+       <ImageView id="4" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+       <ImageView id="5" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+       <ImageView id="5" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+       <ImageView id="5" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+       <ImageView id="5" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+       <ImageView id="5" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+       <ImageView id="5" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+
+      <ImageView fitHeight="75.0" fitWidth="119.0" layoutX="448.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true" >
+          <image>
+              <Image url="@zm.jpeg" />
+          </image>
+
+      </ImageView>
+
+   </children>
+    
+</AnchorPane>
