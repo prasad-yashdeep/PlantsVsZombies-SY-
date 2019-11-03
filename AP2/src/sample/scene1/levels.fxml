@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.scene1.Levels">
+   <children>
+      <Button fx:id="btn1" layoutX="50.0" layoutY="127.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="101.0">
+         <graphic>
+            <ImageView fitHeight="66.0" fitWidth="101.0">
+               <image>
+                  <Image url="@Level1.jpeg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btn2" layoutX="200.0" layoutY="127.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="101.0">
+      <graphic>
+         <ImageView fitHeight="66.0" fitWidth="101.0">
+            <image>
+               <Image url="@Level2.jpeg" />
+            </image>
+         </ImageView>
+      </graphic>
+      </Button>
+      <Button fx:id="btn3" layoutX="350.0" layoutY="127.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="101.0">
+      <graphic>
+         <ImageView fitHeight="66.0" fitWidth="101.0">
+            <image>
+               <Image url="@Level3.jpeg" />
+            </image>
+         </ImageView>
+      </graphic>
+      </Button>
+      <Button fx:id="btn4" layoutX="500.0" layoutY="127.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="101.0">
+      <graphic>
+         <ImageView fitHeight="66.0" fitWidth="101.0">
+            <image>
+               <Image url="@Level4.jpeg" />
+            </image>
+         </ImageView>
+      </graphic>
+      </Button>
+       <Button fx:id="btn5" layoutX="650.0" layoutY="127.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="101.0">
+      <graphic>
+         <ImageView fitHeight="66.0" fitWidth="101.0">
+            <image>
+               <Image url="@Level5.jpeg" />
+            </image>
+         </ImageView>
+      </graphic>
+       </Button>
+      <Label layoutX="324.0" layoutY="42.0" prefHeight="37.0" prefWidth="119.0" text="CHOOSE LEVEL">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="144.0" fitWidth="842.0" layoutX="105.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+              <Image url="@Day.jpeg" />
+          </image>
+      </ImageView>
+
+
+
+     
+   </children>
+</AnchorPane>

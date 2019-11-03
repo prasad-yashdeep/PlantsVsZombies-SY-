@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="apa1" prefHeight="304.0" prefWidth="576.0" styleClass="bodybg" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.scene1.Lawn">
+   <stylesheets>
+      <URL value="@law.css" />
+      <URL value="@law.css" />
+
+   </stylesheets>
+   <children>
+      <Button fx:id="btn1" layoutX="61.0" layoutY="1.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="57.0">
+       <graphic>
+           <ImageView fx:id="a1" fitHeight="45.0" fitWidth="57.0">
+               <image>
+                   <Image url="@snowpea.png" />
+               </image>
+           </ImageView>
+       </graphic>
+      </Button>
+      <Button fx:id="btn2" layoutX="119.0" layoutY="1.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="57.0">
+       <graphic>
+           <ImageView fx:id="aa1" fitHeight="45.0" fitWidth="57.0">
+               <image>
+                   <Image url="@cherry.png" />
+               </image>
+           </ImageView>
+       </graphic>
+      </Button>
+      <Button fx:id="btn3" layoutX="179.0" layoutY="1.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="57.0">
+       <graphic>
+           <ImageView fx:id="a3" fitHeight="45.0" fitWidth="57.0">
+               <image>
+                   <Image url="@potato.png" />
+               </image>
+           </ImageView>
+       </graphic>
+      </Button>
+      <Button fx:id="btn4" layoutX="236.0" layoutY="1.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="57.0">
+       <graphic>
+           <ImageView fx:id="a4" fitHeight="45.0" fitWidth="57.0">
+               <image>
+                   <Image url="@wallnut.png" />
+               </image>
+           </ImageView>
+       </graphic>
+      </Button>
+       <Button fx:id="btn5">
+           <graphic>
+               <ImageView fx:id="a5" fitHeight="46.0" fitWidth="46.0" layoutX="-1.0" layoutY="-3.0">
+                   <image>
+                       <Image url="@sunflower.png" />
+                   </image>
+               </ImageView>
+           </graphic>
+       </Button>
+      <ImageView fx:id="img1" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@1.png" />
+              </image>
+
+      </ImageView>
+       <ImageView fx:id="img2" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+       <ImageView fx:id="img3" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+       <ImageView fx:id="img4" fitHeight="55.0" fitWidth="75.0" layoutX="50.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+       <ImageView fx:id="img5" fitHeight="53.0" fitWidth="64.0" layoutX="61.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@1.png" />
+           </image>
+
+       </ImageView>
+
+
+
+
+      <ImageView fx:id="img6" fitHeight="75.0" fitWidth="119.0" layoutX="432.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+              <Image url="@zombies2.png" />
+          </image>
+
+      </ImageView>
+       <ImageView fx:id="img7" fitHeight="75.0" fitWidth="119.0" layoutX="432.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@zombies2.png" />
+           </image>
+
+       </ImageView>
+       <ImageView fx:id="img8" fitHeight="75.0" fitWidth="119.0" layoutX="432.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@zombies2.png" />
+           </image>
+
+       </ImageView>
+       <ImageView fx:id="img9" fitHeight="75.0" fitWidth="119.0" layoutX="432.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@zombies2.png" />
+           </image>
+       </ImageView>
+       <ImageView fx:id="img10" fitHeight="75.0" fitWidth="119.0" layoutX="432.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@zombies2.png" />
+           </image>
+       </ImageView>
+       <ImageView fx:id="img11" fitHeight="75.0" fitWidth="119.0" layoutX="432.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@zombies2.png" />
+           </image>
+       </ImageView>
+      <Button layoutX="474.0" layoutY="5.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="108.0" text="Save Game" />
+       <Button layoutX="474.0" layoutY="350.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="108.0" text="Exit" />
+      <ImageView fx:id="img12" fitHeight="26.0" fitWidth="35.0" layoutX="7.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+              <Image url="@final_sun2.png" />
+          </image>
+      </ImageView>
+      <Label layoutX="35.0" layoutY="78.0" prefHeight="26.0" prefWidth="47.0" text=":75" textFill="#b00c0c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="528.0" layoutY="58.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+
+      <ImageView fx:id="iimg12" fitHeight="53.0" fitWidth="56.0" layoutX="311.0" layoutY="-53.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+              <Image url="@final_sun2.png" />
+          </image>
+      </ImageView>
+
+       <ProgressBar fx:id="ipb1" layoutX="374.0" layoutY="11.0" prefHeight="26.0" prefWidth="85.0" progress="0.0" />
+      <Button fx:id="yt0" layoutX="329.0" layoutY="11.0" mnemonicParsing="false" onAction="#handle" prefHeight="26.0" prefWidth="40.0">
+          <graphic>
+              <ImageView fx:id="aa5" fitHeight="21.0" fitWidth="18.0" layoutX="-1.0" layoutY="-3.0">
+                  <image>
+                      <Image url="@timer.jpeg" />
+                  </image>
+              </ImageView>
+          </graphic>
+      </Button>
+
+
+   </children>
+    
+</AnchorPane>
